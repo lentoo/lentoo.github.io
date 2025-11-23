@@ -1,0 +1,133 @@
+:root {
+  /* --- 字体设置 --- */
+  --vp-font-family-base: 'JetBrains Mono', monospace;
+
+  /* --- 白天模式 (Light Mode) --- */
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: #f8f9fa;
+  --vp-c-bg-soft: #f1f3f5;
+  
+  --vp-c-brand: #2563eb; /* 专业蓝 */
+  --vp-c-brand-1: #3b82f6;
+  --vp-c-brand-2: #60a5fa;
+
+  --vp-c-text-1: #111827;
+  --vp-c-text-2: #4b5563;
+  
+  --vp-c-divider: #e5e7eb;
+  --vp-c-gutter: #e5e7eb;
+
+  /* 交易颜色 - 白天 */
+  --trade-win: #16a34a;
+  --trade-loss: #dc2626;
+  --trade-bg-win: rgba(22, 163, 74, 0.1);
+  --trade-bg-loss: rgba(220, 38, 38, 0.1);
+  --card-bg: #f8f9fa;
+  --card-border: #e5e7eb;
+}
+
+.dark {
+  /* --- 赛博朋克调色板 (Dark Mode) --- */
+  --cyber-bg: #050505;           /* 极深黑 */
+  --cyber-panel: #0a0f14;        /* 面板背景 */
+  --cyber-border: #333333;       /* 边框 */
+  
+  --neon-green: #00ff41;         /* 盈利/做多 */
+  --neon-red: #ff0055;           /* 亏损/做空 */
+  --neon-blue: #00f3ff;          /* 链接/强调 */
+  --neon-purple: #bc13fe;        /* 辅助强调 */
+
+  /* --- 覆盖 VitePress 默认变量 --- */
+  
+  /* 背景色 */
+  --vp-c-bg: var(--cyber-bg);
+  --vp-c-bg-alt: var(--cyber-panel);
+  --vp-c-bg-soft: var(--cyber-panel);
+
+  /* 品牌色 (默认使用电光蓝) */
+  --vp-c-brand: var(--neon-blue);
+  --vp-c-brand-1: var(--neon-blue);
+  --vp-c-brand-2: var(--neon-purple);
+  
+  /* 文本颜色 */
+  --vp-c-text-1: #e0e0e0;
+  --vp-c-text-2: #a0a0a0;
+  
+  /* 边框 */
+  --vp-c-divider: var(--cyber-border);
+  --vp-c-gutter: var(--cyber-border);
+
+  /* 交易颜色 - 黑夜 */
+  --trade-win: var(--neon-green);
+  --trade-loss: var(--neon-red);
+  --trade-bg-win: rgba(0, 255, 65, 0.1);
+  --trade-bg-loss: rgba(255, 0, 85, 0.1);
+  --card-bg: var(--cyber-panel);
+  --card-border: var(--cyber-border);
+}
+
+/* 首页 Hero 标题发光效果 (仅在暗黑模式下启用发光) */
+.dark .VPHero .name {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to right, var(--neon-blue), var(--neon-green));
+  filter: drop-shadow(0 0 10px rgba(0, 243, 255, 0.5));
+}
+
+/* 按钮样式重写 - 仅 Dark Mode */
+.dark .VPButton.brand {
+  background-color: transparent;
+  border: 1px solid var(--neon-blue);
+  color: var(--neon-blue);
+  box-shadow: 0 0 5px var(--neon-blue);
+  transition: all 0.3s ease;
+}
+
+.dark .VPButton.brand:hover {
+  background-color: var(--neon-blue);
+  color: #000;
+  box-shadow: 0 0 20px var(--neon-blue);
+}
+
+/* --- 交易日志专用样式 (适配双模式) --- */
+
+/* 盈利标签 (Long/Win) */
+.trade-win {
+  color: var(--trade-win);
+  border: 1px solid var(--trade-win);
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: var(--trade-bg-win);
+  font-weight: bold;
+}
+
+.dark .trade-win {
+  box-shadow: 0 0 5px rgba(0, 255, 65, 0.3);
+}
+
+/* 亏损标签 (Short/Loss) */
+.trade-loss {
+  color: var(--trade-loss);
+  border: 1px solid var(--trade-loss);
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: var(--trade-bg-loss);
+  font-weight: bold;
+}
+
+.dark .trade-loss {
+  box-shadow: 0 0 5px rgba(255, 0, 85, 0.3);
+}
+
+/* 盈亏比卡片布局 */
+.trade-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border); /* 增加边框以适应浅色模式 */
+  border-left: 3px solid var(--vp-c-brand);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0 8px 8px 0;
+}
+
+.trade-card.win { border-left-color: var(--trade-win); }
+.trade-card.loss { border-left-color: var(--trade-loss); }
