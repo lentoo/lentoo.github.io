@@ -19,7 +19,7 @@ features:
     link: /daily-ops/
   - title: 市场研判
     details: 宏观分析，技术面推演，寻找高盈亏比机会。
-    link: /market-analysis/
+    link: /market-analysis/2025-10-pnl/
   - title: 心态建设
     details: 情绪管理，克服 FOMO，建立交易纪律。
     link: /mindset/

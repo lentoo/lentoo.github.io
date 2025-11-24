@@ -115,12 +115,29 @@ const barOption = computed(() => {
       trigger: 'axis',
       axisPointer: { type: 'shadow' },
       formatter: (params) => {
-        const p = Array.isArray(params) ? params[0] : params
-        return `${p.name}<br/>${p.seriesName}: ${formatCurrency(p.value)}`
-      }
+        const p = Array.isArray(params) ? params[0] : params;
+        return `${p.name}<br/>${p.seriesName}: ${formatCurrency(p.value)}`;
+      },
     },
     grid: { left: '3%', right: '4%', bottom: '3%', containLabel: true },
-    xAxis: { type: 'value', axisLabel: { formatter: (value) => formatCurrency(value) } },
+    xAxis: {
+      type: 'value',
+      splitNumber: 6,
+      axisLabel: {
+        formatter: (value) => {
+          try {
+            return new Intl.NumberFormat('en-US', {
+              notation: 'compact',
+              style: 'currency',
+              currency: 'USD',
+              maximumFractionDigits: 1,
+            }).format(value);
+          } catch (e) {
+            return formatCurrency(value);
+          }
+        },
+      },
+    },
     yAxis: {
       type: 'category',
       data: sortedData.map((item) => item.symbol),

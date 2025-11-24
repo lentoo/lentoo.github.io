@@ -19,7 +19,7 @@ export default defineConfig({
     nav: [
       { text: 'Dashboard', link: '/' },
       { text: 'Daily Ops', link: '/daily-ops/' },
-      { text: 'Analysis', link: '/market-analysis/' },
+      { text: 'Analysis', link: '/market-analysis/2025-10-pnl/' },
       { text: 'Mindset', link: '/mindset/' },
     ],
 
@@ -52,7 +52,6 @@ export default defineConfig({
           text: '市场研判',
           items: [
             { text: '10月盈亏分析', link: '/market-analysis/2025-10-pnl' },
-            { text: '分析框架', link: '/market-analysis/' },
             { text: 'BTC 长期走势', link: '/market-analysis/btc-long-term' },
           ],
         },

@@ -6,7 +6,5 @@
       "config": { "distDir": "docs/.vitepress/dist" }
     }
   ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
-  ]
+  "routes": [{ "src": "/(.*)", "dest": "/index.html" }]
 }
