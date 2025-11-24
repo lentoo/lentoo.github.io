@@ -114,9 +114,13 @@ const barOption = computed(() => {
     tooltip: {
       trigger: 'axis',
       axisPointer: { type: 'shadow' },
+      formatter: (params) => {
+        const p = Array.isArray(params) ? params[0] : params
+        return `${p.name}<br/>${p.seriesName}: ${formatCurrency(p.value)}`
+      }
     },
     grid: { left: '3%', right: '4%', bottom: '3%', containLabel: true },
-    xAxis: { type: 'value' },
+    xAxis: { type: 'value', axisLabel: { formatter: (value) => formatCurrency(value) } },
     yAxis: {
       type: 'category',
       data: sortedData.map((item) => item.symbol),
