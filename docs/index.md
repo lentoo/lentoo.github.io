@@ -7,11 +7,11 @@ hero:
   tagline: '记录交易，对抗人性，复利增长。'
   actions:
     - theme: brand
-      text: '今日复盘'
+      text: '交易复盘'
       link: /daily-ops/
     - theme: alt
-      text: '行情分析'
-      link: /market-analysis/
+      text: '盈亏分析'
+      link: /market-analysis/2025-10-pnl/
 
 features:
   - title: 实盘日记
