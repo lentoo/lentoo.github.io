@@ -11,7 +11,7 @@ hero:
       link: /daily-ops/
     - theme: alt
       text: '盈亏分析'
-      link: /market-analysis/2025-10-pnl/
+      link: /market-analysis/2025-11-pnl/
 
 features:
   - title: 实盘日记
@@ -19,7 +19,7 @@ features:
     link: /daily-ops/
   - title: 市场研判
     details: 宏观分析，技术面推演，寻找高盈亏比机会。
-    link: /market-analysis/2025-10-pnl/
+    link: /market-analysis/2025-11-pnl/
   - title: 心态建设
     details: 情绪管理，克服 FOMO，建立交易纪律。
     link: /mindset/
