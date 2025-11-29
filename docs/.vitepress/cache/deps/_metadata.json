@@ -1,55 +1,55 @@
 {
-  "hash": "b3ece250",
-  "configHash": "055a7f98",
+  "hash": "825262f9",
+  "configHash": "0a009f59",
   "lockfileHash": "e7cb1356",
-  "browserHash": "e6aa6e35",
+  "browserHash": "e4e1fbb8",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "9a499f28",
+      "fileHash": "a097159a",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "f0e252d2",
+      "fileHash": "64acf58c",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "baa3cd0c",
+      "fileHash": "ed9d0e0e",
       "needsInterop": false
     },
     "echarts/core": {
       "src": "../../../../node_modules/echarts/core.js",
       "file": "echarts_core.js",
-      "fileHash": "39f08ed2",
+      "fileHash": "dfcd3140",
       "needsInterop": false
     },
     "echarts/renderers": {
       "src": "../../../../node_modules/echarts/renderers.js",
       "file": "echarts_renderers.js",
-      "fileHash": "2ca0c2e4",
+      "fileHash": "4c31198a",
       "needsInterop": false
     },
     "echarts/charts": {
       "src": "../../../../node_modules/echarts/charts.js",
       "file": "echarts_charts.js",
-      "fileHash": "69d004b4",
+      "fileHash": "469e6a5f",
       "needsInterop": false
     },
     "echarts/components": {
       "src": "../../../../node_modules/echarts/components.js",
       "file": "echarts_components.js",
-      "fileHash": "e9d82990",
+      "fileHash": "b7a5c5f7",
       "needsInterop": false
     },
     "vue-echarts": {
       "src": "../../../../node_modules/vue-echarts/dist/index.js",
       "file": "vue-echarts.js",
-      "fileHash": "aa39443d",
+      "fileHash": "a2e01818",
       "needsInterop": false
     }
   },

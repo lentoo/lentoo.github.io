@@ -32,6 +32,15 @@ export default defineConfig({
         {
           text: '2025年11月',
           items: [
+            { text: '11-26 TLT 再次布局', link: '/daily-ops/2025-11-26' },
+            {
+              text: '11-25 GLD 卖权与 BABA 止盈',
+              link: '/daily-ops/2025-11-25',
+            },
+            {
+              text: '11-24 BABA 做空与 TLT 平仓',
+              link: '/daily-ops/2025-11-24',
+            },
             { text: '11-21 CONL & NVDA', link: '/daily-ops/2025-11-21' },
             { text: '11-20 SPY 期权', link: '/daily-ops/2025-11-20' },
             { text: '11-19 YINN & NVDA', link: '/daily-ops/2025-11-19' },
@@ -44,6 +53,47 @@ export default defineConfig({
             { text: '11-05 NVDA 建仓', link: '/daily-ops/2025-11-05' },
             { text: '11-04 AMD & CONL', link: '/daily-ops/2025-11-04' },
             { text: '11-03 TLT 抄底', link: '/daily-ops/2025-11-03' },
+          ],
+        },
+        {
+          text: '2025年10月',
+          items: [
+            { text: '10-29 MSFT 财报布局', link: '/daily-ops/2025-10-29' },
+            {
+              text: '10-28 YINN 卖权与 TLT 布局',
+              link: '/daily-ops/2025-10-28',
+            },
+            { text: '10-27 GLD 卖权策略', link: '/daily-ops/2025-10-27' },
+            { text: '10-24 NFLX 行权止损', link: '/daily-ops/2025-10-24' },
+            {
+              text: '10-23 TSLA 平仓与 NFLX 指派',
+              link: '/daily-ops/2025-10-23',
+            },
+            {
+              text: '10-22 NFLX 财报博弈与 TSLA',
+              link: '/daily-ops/2025-10-22',
+            },
+            { text: '10-21 NFLX 财报前布局', link: '/daily-ops/2025-10-21' },
+            { text: '10-20 AAPL 稳健策略', link: '/daily-ops/2025-10-20' },
+            {
+              text: '10-16 TLT 加仓与 GLD 止盈',
+              link: '/daily-ops/2025-10-16',
+            },
+            {
+              text: '10-15 AVGO & AMD 芯片股策略',
+              link: '/daily-ops/2025-10-15',
+            },
+            { text: '10-14 SPXW 日内交易', link: '/daily-ops/2025-10-14' },
+            {
+              text: '10-13 LMT 止盈与 CONL 建仓',
+              link: '/daily-ops/2025-10-13',
+            },
+            {
+              text: '10-10 TLT 布局与 VALE 远期',
+              link: '/daily-ops/2025-10-10',
+            },
+            { text: '10-09 GLD 卖权策略', link: '/daily-ops/2025-10-09' },
+            { text: '10-08 AAPL 布局', link: '/daily-ops/2025-10-08' },
           ],
         },
       ],
