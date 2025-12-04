@@ -107,6 +107,7 @@ export default defineConfig({
             { text: '11月盈亏分析', link: '/market-analysis/2025-11-pnl' },
             { text: '10月盈亏分析', link: '/market-analysis/2025-10-pnl' },
             { text: 'BTC 长期走势', link: '/market-analysis/btc-long-term' },
+            { text: '美债（TLT） 长期走势', link: '/market-analysis/tlt' },
           ],
         },
       ],
