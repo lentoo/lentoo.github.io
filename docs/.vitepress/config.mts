@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress';
 
 export default defineConfig({
   title: 'Biubiu Trader',
+  base: '/',
   description: 'Cyberpunk Style Trading Journal',
   appearance: true,
 
@@ -31,6 +32,7 @@ export default defineConfig({
         },
         {
           text: '2025年11月',
+          collapsed: true,
           items: [
             { text: '11-26 TLT 再次布局', link: '/daily-ops/2025-11-26' },
             {
@@ -57,6 +59,7 @@ export default defineConfig({
         },
         {
           text: '2025年10月',
+          collapsed: true,
           items: [
             { text: '10-29 MSFT 财报布局', link: '/daily-ops/2025-10-29' },
             {
