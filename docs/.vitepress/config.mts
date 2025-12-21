@@ -31,6 +31,32 @@ export default defineConfig({
           items: [{ text: '操作原则', link: '/daily-ops/' }],
         },
         {
+          text: '2025年12月',
+          collapsed: true,
+          items: [
+            {
+              text: '12-19 TLT 指派与 SPXW 结算',
+              link: '/daily-ops/2025-12-19',
+            },
+            { text: '12-18 多头寸止盈', link: '/daily-ops/2025-12-18' },
+            { text: '12-17 SLV 布局', link: '/daily-ops/2025-12-17' },
+            { text: '12-16 IBKR 加仓', link: '/daily-ops/2025-12-16' },
+            { text: '12-15 MSTR 看空', link: '/daily-ops/2025-12-15' },
+            { text: '12-12 SPY 止盈与 UVXY', link: '/daily-ops/2025-12-12' },
+            { text: '12-11 UVXY 卖权', link: '/daily-ops/2025-12-11' },
+            { text: '12-10 GLD 布局', link: '/daily-ops/2025-12-10' },
+            {
+              text: '12-09 BIDU 止盈与 SPY 布局',
+              link: '/daily-ops/2025-12-09',
+            },
+            { text: '12-08 BIDU 看空', link: '/daily-ops/2025-12-08' },
+            { text: '12-05 GLD 策略', link: '/daily-ops/2025-12-05' },
+            { text: '12-04 TSLA 卖权', link: '/daily-ops/2025-12-04' },
+            { text: '12-03 SPY 日内', link: '/daily-ops/2025-12-03' },
+            { text: '12-01 NVDA 与 VALE', link: '/daily-ops/2025-12-01' },
+          ],
+        },
+        {
           text: '2025年11月',
           collapsed: true,
           items: [
