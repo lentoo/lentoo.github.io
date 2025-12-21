@@ -6,4 +6,6 @@ node_modules
 .vscode
 .vercel
 dist
+
 docs/.vitepress/cache
+docs/.vitepress/dist
