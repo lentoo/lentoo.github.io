@@ -22,6 +22,7 @@ export default defineConfig({
       { text: 'Daily Ops', link: '/daily-ops/' },
       { text: 'Analysis', link: '/market-analysis/2025-11-pnl/' },
       { text: 'Mindset', link: '/mindset/' },
+      { text: 'Diary', link: '/diary/2025' },
     ],
 
     sidebar: {
@@ -202,6 +203,12 @@ export default defineConfig({
         {
           text: '交易心法',
           items: [{ text: '情绪管理', link: '/mindset/' }],
+        },
+      ],
+      '/diary/': [
+        {
+          text: '生活日结',
+          items: [{ text: '2025年', link: '/diary/2025' }],
         },
       ],
     },
