@@ -34,6 +34,10 @@ export default defineConfig({
           text: '2025年12月',
           collapsed: true,
           items: [
+            { text: '12-26 SLV 交易', link: '/daily-ops/2025-12-26' },
+            { text: '12-24 SPXW & SLV', link: '/daily-ops/2025-12-24' },
+            { text: '12-23 TLT & SLV', link: '/daily-ops/2025-12-23' },
+            { text: '12-22 TSLA & GLD', link: '/daily-ops/2025-12-22' },
             {
               text: '12-19 TLT 指派与 SPXW 结算',
               link: '/daily-ops/2025-12-19',
